@@ -1,0 +1,163 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+	background-color: #f6f7f8;
+}
+
+header {
+	background-color: #fff;
+	width: 100vw;
+}
+
+nav {
+	max-width: 1080px;
+}
+
+main {
+	max-width: 1080px;
+}
+
+.fullname {
+	display: none;
+}
+
+.setting-svg {
+	display: none;
+}
+
+.cube-svg {
+	display: none;
+}
+
+.myBanner {
+	height: 200px;
+	background: linear-gradient(rgba(0, 0, 0, 0), #313131 270px),
+		url("./images/banner-image.jpeg") no-repeat center/cover;
+}
+
+.my-name {
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.custom-name {
+	background-color: #527f1f;
+	height: 42px;
+	width: 42px;
+	border-radius: 6px;
+	font-size: 17px;
+}
+
+.custom-padding {
+	padding-left: 20px;
+}
+
+.navbar-brand {
+	display: none;
+}
+
+.line-black {
+	background-color: black;
+	height: 12px;
+	margin-top: 6px;
+}
+
+.line-yellow {
+	background-color: yellow;
+	height: 4px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+.custom-line {
+	background-color: black;
+}
+
+.card-item {
+	padding-bottom: 16px;
+}
+
+.card-item div .card-title {
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+
+footer {
+	height: 220px;
+	padding: 0 40px;
+	margin-top: 40px;
+}
+
+footer h3 {
+	color: #6e7477;
+}
+
+/* Breakpoints */
+
+@media screen and (min-width: 576px) {
+	.margin-r {
+		margin-right: 12px;
+	}
+
+	.margin-l {
+		margin-left: 12px;
+	}
+
+	.card-item {
+		margin-bottom: 12px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.cube-svg {
+		display: block;
+		padding-right: 20px;
+	}
+
+	.setting-svg {
+		display: block;
+		padding-left: 20px;
+	}
+
+	.navbar-toggler {
+		display: none;
+	}
+
+	.navbar-brand {
+		display: block;
+	}
+
+	.card-item {
+		padding-bottom: 12px;
+	}
+
+	.card-item > div {
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 16px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.fullname {
+		display: block;
+		padding-left: 20px;
+	}
+	.main-content {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.card-item .margin-r {
+		margin-right: 8px;
+	}
+
+	.card-item .margin-l {
+		margin-left: 8px;
+	}
+}
