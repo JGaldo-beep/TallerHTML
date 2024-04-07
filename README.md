@@ -11,9 +11,7 @@ El desafío del presente proyecto fue crear un clon de la página web existen, l
 
 ## Utiliza el proyecto!
 
-Para poder ver el proyecto en funcionamiento te pido que ingreses al siguiente link: [hola](google.com)
-
-
+Para poder ver el proyecto en funcionamiento te pido que ingreses al siguiente link: [click aqui](https://jgaldo-beep.github.io/bootstrap-practice/)
 
 ## Conclusión
 
